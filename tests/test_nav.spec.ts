@@ -27,7 +27,7 @@ test('count and print nav-array links on playwright.dev', async ({ page }) => {
         console.log(`[${index + 1}] ${link.text} \n   [URL] ${link.url}\n`);
     });
 
-    console.log('New commit kkkk');
+    //console.log('New commit kkkk');
 
     expect (allLinkTextURL.length).toBeGreaterThanOrEqual(1);
 });
