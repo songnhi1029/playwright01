@@ -19,8 +19,6 @@ test('count and print nav-array links on playwright.dev', async ({ page }) => {
             text: text , 
             url: (element as HTMLAnchorElement).href || ''
         }
-        
-        
     }));
 
     console.log('Total Navi link tim thay: ', allLinkTextURL.length);
